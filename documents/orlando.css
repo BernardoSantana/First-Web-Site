@@ -1,0 +1,120 @@
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #5E299A;
+}
+
+header .container {
+	position: relative;
+}
+
+header .header-black{
+	background-color: #000;
+	height: 40px;
+}
+
+header .header-black li{
+	background-image: url("imgs/clubs.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 4px;
+	
+}
+
+
+header .header-black li.club-1 {
+	background-position: 0px 0px;  
+}
+
+header .header-black li.club-2 {
+	background-position: -48px 0px;
+}
+
+header .header-black li.club-3 {
+	background-position: -95px 0px;
+}
+header .header-black li.club-4 {
+	background-position: -138px 0px;
+}
+
+header .header-black li.club-5 {
+	background-position: -188px 0px;
+}
+
+header .header-black li.club-6 {
+	background-position: -238px 0px;
+}
+
+header .header-black li.club-7 {
+	background-position: -288px 0px;
+}
+
+header .header-black li.club-8 {
+	background-position: -338px 0px;
+}
+
+header .header-black li.club-9 {
+	background-position: -380px 0px;
+}
+header .header-black li.club-10 {
+	background-position: -430px 0px;
+}
+
+header .header-black li.club-11 {
+	background-position: -480px 0px;
+}
+
+header .header-black li.club-12 {
+	background-position: -530px 0px;
+}
+header .header-black li.club-13 {
+	background-position: -580px 0px;
+}
+
+header .header-black li.club-14 {
+	background-position: -630px 0px;
+}
+
+header .header-black li.club-15 {
+	background-position: -675px 0px;
+}
+
+header .header-black li.club-16 {
+	background-position: -720px 0px;
+}
+
+header .header-black li.club-17 {
+	background-position: -763px 0px;
+}
+
+header .header-black li.club-18 {
+	background-position: -809px 0px;
+}
+header .header-black li.club-19 {
+	background-position: -860px 0px;
+}
+
+header .header-black li.club-20 {
+	background-position: -901px 0px;
+}
+
+header .header-black li.club-21 {
+	background-position: -951px 0px;
+}
+
+header .header-black li.club-22 {
+	background-position: -999px 0px;
+}
+
+
+header .header-black li a{
+	width: 32px;
+	height: 32px;
+	display: block;
+}	
+
+header #logotipo {
+	position: absolute;
+	top: -20px;
+}
+
