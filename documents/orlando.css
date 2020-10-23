@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("fontes/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+
 header {
 	width: 100%;
 	height: 150px;
@@ -106,7 +112,6 @@ header .header-black li.club-22 {
 	background-position: -999px 0px;
 }
 
-
 header .header-black li a{
 	width: 32px;
 	height: 32px;
@@ -116,5 +121,49 @@ header .header-black li a{
 header #logotipo {
 	position: absolute;
 	top: -20px;
+}
+
+#menu {
+	margin: 12px 0;
+	
+}
+
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+
+#menu li.search {
+	
+}
+
+#menu li.search input {
+	background-color: #5C2D90;
+	color: #fff;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+	color: #fff;
+}
+
+#menu li.search button {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+}
+
+#menu li.search button i {
+	font-size:14px;
+	color: rgba(255, 255, 255, .5);
+}
+
+#menu li a {
+	color: #FFF;
+	font-size: 16px;
+	padding: 10px 25px;
 }
 
