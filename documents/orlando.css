@@ -319,7 +319,7 @@ footer {
 }
 
 footer .row {
-	width: 101%;
+	width: 100%;
 }
 
 footer .row-cinza-claro {
@@ -347,7 +347,7 @@ footer .texto-cinza {
 	font-weight: bold;
 	font-size: 16px;
 	color: #666;
-	margin-top: 220px;
+	margin-top: 35px;
 }
 
 footer .logotipo {
@@ -395,4 +395,28 @@ footer .col-link ul {
 	color: #FFF;
 	font-size: 14px;
 	font-family: Arial;
+}
+
+footer .col-get-in-touch {
+	margin-left: 700px;
+	margin-top: -170px;
+}
+
+footer .col-get-in-touch h4 {
+	color: #FFF;
+	font-size: 16px;
+	font-family: "OpenSans";
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+
+footer .col-get-in-touch address {
+	color: #FFF;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+footer .col-get-in-touch i {
+	color: #9B9B9B;
+	padding-right: 5px;
 }
