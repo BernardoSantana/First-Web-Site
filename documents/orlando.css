@@ -214,6 +214,7 @@ header #logotipo {
 #news {
 	position: relative;
 	margin-top: -100px;	
+	white-space: normal;
 }
 
 #news h2 {
@@ -227,7 +228,6 @@ header #logotipo {
 #news hr {
 	border:#FDE192 solid 8px;
 	width: 200px;
-	margin-top: 0;
 	margin-right: 450px;
 	
 }
@@ -248,6 +248,15 @@ header #logotipo {
 	color: #A7A7A7;
 	font-size: 18px;
 }
+
+#news .thumbnails .item-inner {
+	padding: 10px;
+}
+
+#news .thumbnails .item-inner img {
+	width: 100%;
+}
+
 
 #estatistica {
 	background-color: #5E299A;
