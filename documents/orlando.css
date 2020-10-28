@@ -130,6 +130,11 @@ header #logotipo {
 	top: -20px;
 }
 
+#banner h1.efeito {
+	color:#5E2799;
+	font-size:6em;
+}
+
 #menu {
 	margin: 12px 0;
 	
@@ -141,7 +146,12 @@ header #logotipo {
 }
 
 #menu li.search {
-	
+	width:182px;
+	transition: 1s;
+}
+
+#menu li.search.ativo {
+	width:300px;
 }
 
 #menu li.search input {
@@ -191,6 +201,7 @@ header #logotipo {
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
 	font-family: "OpenSans-Light";
 	margin-left: 50px;
+	transition:2s;
 }
 
 #banner h1 small{
@@ -203,7 +214,6 @@ header #logotipo {
 #news {
 	position: relative;
 	margin-top: -100px;	
-	
 }
 
 #news h2 {
@@ -231,7 +241,6 @@ header #logotipo {
 	font-size: 18px;
 	font-family: "OpenSans";
 	font-weight: bold;
-	margin-bottom: 0;
 }
 
 #news .thumbnails time {
@@ -273,8 +282,15 @@ header #logotipo {
 	font-family: "OpenSans-Light";
 	font-size: 35px;
 	text-transform: uppercase;
-	margin-left: 250px
-	
+	margin-left: 260px;
+}
+
+#call-to-action h2.video {
+	color: #5E2799;
+	font-family: "OpenSans-Light";
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-left: 520px;
 }
 
 #call-to-action hr {
@@ -318,19 +334,17 @@ footer {
 	margin-top: 110px;
 }
 
-footer .row {
-	width: 100%;
-}
-
 footer .row-cinza-claro {
 	height: 200px;
 	background-color: #171F26;
+	width: 101%;
 }
 
 footer .row-cinza-escuro {
 	height: 60px;
 	background-color: #11171D; 
 	border-top: #242D37 1px solid;
+	width: 101%;
 }
 
 footer .texto-roxo {
@@ -347,7 +361,7 @@ footer .texto-cinza {
 	font-weight: bold;
 	font-size: 16px;
 	color: #666;
-	margin-top: 35px;
+	margin-top: 42px;
 }
 
 footer .logotipo {
@@ -400,17 +414,16 @@ footer .col-link ul {
 footer .col-get-in-touch {
 	margin-left: 700px;
 	margin-top: -170px;
+	white-space: nowrap;
 }
 
 footer .col-get-in-touch h4 {
 	color: #FFF;
 	font-size: 16px;
 	font-family: "OpenSans";
-	padding-bottom: 17px;
-	border-bottom: #242D37 1px solid;
 }
 
-footer .col-get-in-touch address {
+footer .col-get-in-touch p {
 	color: #FFF;
 	font-size: 14px;
 	font-family: Arial;
