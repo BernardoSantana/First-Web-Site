@@ -3,9 +3,8 @@
 		<meta charset="UTF-8">
 			<title>Projeto</title>
 				<link rel="stylesheet" href="css/bootstrap.css">
-				<link rel="stylesheet" href="owl-carousel/owl.carousel">
-				<link rel="stylesheet" href="owl-carousel/owl.theme">
 				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+				<link rel="stylesheet" href="plyr/dist/plyr.css">
 				<link rel="stylesheet" href="orlando.css">
 	</head>
 <body>
@@ -70,9 +69,8 @@
 					<h2 class="video">Videos</h2>
 					<hr></hr>
 				</div>
-				<div class="container">
+				<div class="container" class="player">
 					<video src="mp4/highlights.mp4" controls poster="imgs/highlights.jpg"></video>
-					
 				</div>
 			</div>
 		</div>
@@ -132,8 +130,22 @@
 		</div>
 	</footer>
 			<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
-			<script type="text/javascript" src="owl-carousel/owl.carousel.min"></script>
 			<script type="text/javascript" src="js/bootstrap.js"></script>
+			<script type="text/javascript" src="plyr/dist/plyr.js"></script>
+	<script>
+		(function(d,p){
+			var a = new XMLHttpRequest(),
+				b = d.body;
+			a.open("GET", p, true);
+			a.send();
+			a.onload = function(){
+				var c = d.createElement("div");
+				c.style.display = "none";
+				c.innerHTML = a.responseText;
+				b.insertBefore(c, b.childNodes[0])
+			}
+		})(document, "plyr/dist/plyr.svg");
+	</script>
 	<script>
 		$(document).ready(function(){
 			$("#logotipo").on("mouseover",function(){
