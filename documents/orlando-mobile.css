@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px) {
+	.header-black ul {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.header-black ul, #menu {
+		display: none;
+	}
+	#logotipo {
+		left: 34%;
+	}
+	#btn-bars, #btn-search {
+		color: #fff;
+		font-size: 22px;
+		background: none;
+		border: none;
+		display: block;
+	}
+	#btn-search {
+		margin-left: 380px;
+		margin-top: -24px;
+	}
+	#banner {
+		height: 330px;
+		background-size: cover;
+		background-position: 0;
+	}
+	#banner h1 {
+		font-size: 30px;
+		top: 170px;
+		left: -15px;
+		color: #fff;
+	}
+	#news h2 {
+		left: 1px;
+	}
+}
