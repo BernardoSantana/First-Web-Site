@@ -19,7 +19,7 @@
 		display: block;
 	}
 	#btn-search {
-		margin-left: 380px;
+		right: 10px;
 		margin-top: -24px;
 	}
 	#banner {
@@ -33,7 +33,36 @@
 		left: -15px;
 		color: #fff;
 	}
+	#news h2, hr {
+		margin-left: 80px;
+	}
 	#news h2 {
-		left: 1px;
+		font-size:27px;
+	}
+	#news hr {
+		width: 100px;
+		border:#FDE192 solid 3px;
+		margin-left: 117px;
+	}
+	#estatistica {
+		height: 580px
+	}
+	#call-to-action h2, hr {
+		margin-left: 20px;
+	}
+	#call-to-action h2 {
+		font-size:20px;
+	}
+	#call-to-action hr {
+		display: none;
+	}
+	#call-to-action p {
+		margin-top: 20px;
+	}
+	#call-to-action .btn {
+		margin-left: 120px;
+	}
+	footer {
+		
 	}
 }
